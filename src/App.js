@@ -20,7 +20,7 @@ const [rawrScore, scoreRawr] = useState(-15);
 
             <div className="home__score">{meowScore}</div>
           </div>
-          <div className="timer">00:03</div>
+          <div className="timer">11:11</div>
           <div className="away">
             <h2 className="away__name">Rawr</h2>
   <div className="away__score">{rawrScore}</div>
@@ -31,12 +31,12 @@ const [rawrScore, scoreRawr] = useState(-15);
       <section className="buttons">
         <div className="homeButtons">
           {/* TODO STEP 4 - Now we need to attach our state setter functions to click listeners. */}
-          <button onClick = {() =>scoreMeow(meowScore +7)}className="homeButtons__touchdown">Home Touchdown</button>
-          <button onClick = {() =>scoreMeow(meowScore +3)}className="homeButtons__fieldGoal">Home Field Goal</button>
+          <button onClick = {() =>scoreMeow(meowScore +7)}className="homeButtons__touchdown">Home Cute Points</button>
+          <button onClick = {() =>scoreMeow(meowScore +3)}className="homeButtons__fieldGoal">Home Pretty Points</button>
         </div>
         <div className="awayButtons">
-          <button onClick = {() =>scoreRawr(rawrScore +7)} className="awayButtons__touchdown">Away Touchdown</button>
-          <button onClick = {() =>scoreRawr(rawrScore +3)}className="awayButtons__fieldGoal">Away Field Goal</button>
+          <button onClick = {() =>scoreRawr(rawrScore +7)} className="awayButtons__touchdown">Away Cute Points</button>
+          <button onClick = {() =>scoreRawr(rawrScore +3)}className="awayButtons__fieldGoal">Away Pretty Points</button>
         </div>
       </section>
     </div>
